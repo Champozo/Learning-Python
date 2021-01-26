@@ -17,14 +17,14 @@ print('Vamos começar. Boa sorte :D')
 
 def jogar_novamente():
     while True:
-        escolha = input('Quer jogar novamente? ')
-        if escolha == 'sim':
+        escolha = input('Quer jogar novamente? (s/n)')
+        if escolha == 's':
             chute()
-        elif escolha == 'não':
+        elif escolha == 'n':
             print('Foi bom jogar com você, se cuide!')
             break
         else:
-            print('Eu não entendi. Por favor digite \'sim\' ou \'não\' ')
+            print('Eu não entendi. Por favor digite \'s\' se quiser ou \'n\' se não quiser. ')
 
 
 def chute():
